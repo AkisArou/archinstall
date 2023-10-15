@@ -9,7 +9,7 @@
 # by Stephan Raabe (2023)
 # ------------------------------------------------------
 clear
-keyboardlayout="en"
+keyboardlayout="us"
 zoneinfo="Europe/Athens"
 hostname="arch"
 username="akisarou"
@@ -46,7 +46,7 @@ echo "LANG=en_US.UTF-8" >> /etc/locale.conf
 # ------------------------------------------------------
 # Set Keyboard
 # ------------------------------------------------------
-echo "FONT=ter-v18n" >> /etc/vconsole.conf
+echo "FONT=ter-220n" >> /etc/vconsole.conf
 echo "KEYMAP=$keyboardlayout" >> /etc/vconsole.conf
 
 # ------------------------------------------------------
